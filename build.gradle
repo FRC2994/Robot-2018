@@ -3,7 +3,7 @@ plugins {
     id "edu.wpi.first.GradleRIO" version "2019.0.0-alpha-3"
 }
 
-def ROBOT_CLASS = "ca.team2994.robot2017.Robot"
+def ROBOT_CLASS = "main.java.frc.robot.Robot"
 
 // Define my targets (RoboRIO) and artifacts (deployable files)
 // This is added by GradleRIO's backing project EmbeddedTools.
@@ -32,6 +32,7 @@ dependencies {
     compile wpilib()
     compile ctre()
     compile navx()
+    compile pathfinder()
 }
 
 // Setting up my Jar File. In this case, adding all libraries into the main jar ('fat jar')
