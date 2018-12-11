@@ -55,6 +55,7 @@ public class Robot extends TimedRobot {
 	
 	public static int getAutoSelectSwitchPosition() {
 		return autoSelectSwitchPosition;
+		
 	}
 	
 	/**
@@ -92,7 +93,7 @@ public class Robot extends TimedRobot {
 	 */
 	@Override
 	public void disabledInit() {
-	    ArduinoI2C A_I2C = new ArduinoI2C();
+	   ArduinoI2C A_I2C = new ArduinoI2C();
 	}
 
 	@Override
