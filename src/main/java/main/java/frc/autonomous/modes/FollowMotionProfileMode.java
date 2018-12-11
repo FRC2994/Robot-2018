@@ -11,7 +11,7 @@ import jaci.pathfinder.Pathfinder;
 import jaci.pathfinder.Trajectory;
 import jaci.pathfinder.Waypoint;
 
-// import java.io.File;
+import java.io.File;
 // import java.io.FileWriter;
 
 
@@ -29,9 +29,9 @@ public class FollowMotionProfileMode extends AutoMode {
         //     };
 		// builder.add(new FollowMotionProfile(points));
 		
-		// File leftFile = new File("left.csv");
-		// File rightFile = new File("right.csv");
-		// builder.add(new FollowMotionProfile(leftFile, rightFile));
+		File leftFile = new File("left.csv");
+		File rightFile = new File("right.csv");
+		builder.add(new FollowMotionProfile(leftFile, rightFile));
 
 		return builder.toArray();
 	}
