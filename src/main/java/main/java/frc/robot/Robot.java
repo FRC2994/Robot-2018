@@ -125,6 +125,7 @@ public class Robot extends TimedRobot {
 //		mode = new CentreAndPickSwitchMode();
 //		mode = new SideToScaleMode();
 //		mode = new SideToSwitchMode();
+		// mode = new FollowMotionProfileMode();
 //		mode = new AutonomousMasterMode();
 		driveTrain.robotDrive.setSafetyEnabled(false);
 		driveTrain.setLowGear();
