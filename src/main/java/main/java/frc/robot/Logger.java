@@ -29,16 +29,24 @@ public class Logger {
     
 	public void println(String x) {
 	   System.out.println(x);
-	   FileWriter logFileFw = new FileWriter(logFile, true);
-	   logFileFw.write(x+'\n'); 
-	   logFileFw.close();
+	   try {
+		   FileWriter logFileFw = new FileWriter(logFile, true);
+		   logFileFw.write(x+'\n'); 
+		   logFileFw.close();
+	   } catch (IOException e) {
+		   e.printStackTrace();	   
+	   }
     }
 	
 	public void addRecord() {
-	   FileWriter recFileFw = new FileWriter(recFile, true);
-	   recFileFw.write(recLine+'\n');
-	   recFileFw.close();
-	   recLine = ""; // start a new line
+	   try {
+		   FileWriter recFileFw = new FileWriter(recFile, true);
+		   recFileFw.write(recLine+'\n');
+		   recFileFw.close();
+		   recLine = ""; // start a new line
+	   } catch (IOException e) {
+		   e.printStackTrace();	   
+	   }
    }
 
 	public static void appendRecord(String x) {
