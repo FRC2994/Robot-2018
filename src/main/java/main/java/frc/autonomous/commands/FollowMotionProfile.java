@@ -114,7 +114,7 @@ public final class FollowMotionProfile implements AutoCommand {
 
 //    @Override
     public boolean isFinished() {
-        return left.isFinished(); // left/right doesn't matter, they have the same number of steps
+        return left.isFinished() && right.isFinished();
     }
 
 }

@@ -314,7 +314,7 @@ public class DriveTrain extends Subsystem {
 		driveJoystick.enableButton(Constants.getConstantAsInt(JOYSTICK_SHIFTER));
 		driveJoystick.enableButton(Constants.getConstantAsInt(JOYSTICK_INVERSE));
 
-        Logger.appendRecord("dtLmtr\tdtRmtr\tdtLenc\tdtRenc");
+        Logger.appendRecord("dtLmtr\tdtRmtr\tdtLenc\tdtRenc\tdtGyro");
 }
 
 	@Override
@@ -350,7 +350,7 @@ public class DriveTrain extends Subsystem {
 		robotDrive.arcadeDrive(driveJoystick);
 		Logger.appendRecord(
 				getFrontLeftMotor().getMotorOutputVoltage() + "\t" + getFrontRightMotor().getMotorOutputVoltage() + 
-				"\t" + getLeftEncoderValue() + "\t" + getRightEncoderValue());
+				"\t" + getLeftEncoderValue() + "\t" + getRightEncoderValue() + "\t" + getHeading());
 	}
 
 	@Override
