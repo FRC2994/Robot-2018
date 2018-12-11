@@ -30,11 +30,8 @@ public class Logger {
 	public void println(String x) {
 	   System.out.println(x);
 	   try {
-		   if (logFile.exists()) {
-			   logFile.delete();
-		   }
 		   FileWriter logFileFw = new FileWriter(logFile, true);
-		   logFileFw.write(x); 
+		   logFileFw.write(x+'\n'); 
 		   logFileFw.close();
 	   } catch (IOException e) {
 		   e.printStackTrace();	   
@@ -43,11 +40,8 @@ public class Logger {
 	
 	public void addRecord() {
 	   try {
-		   if (recFile.exists()) {
-			   recFile.delete();
-		   }
 		   FileWriter recFileFw = new FileWriter(recFile, true);
-		   recFileFw.write(recLine);
+		   recFileFw.write(recLine+'\n');
 		   recFileFw.close();
 		   recLine = ""; // start a new line
 	   } catch (IOException e) {

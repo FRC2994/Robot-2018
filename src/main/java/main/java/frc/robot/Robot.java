@@ -13,6 +13,7 @@ import main.java.frc.autonomous.modes.SideToSwitchMode;
 import main.java.frc.autonomous.modes.SideToScaleMode;
 import main.java.frc.autonomous.modes.DoNothingMode;
 import main.java.frc.autonomous.modes.JackTestMode;
+import main.java.frc.autonomous.modes.FollowMotionProfileMode;
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.TimedRobot;
 //import main.java.frc.utils.BTMain;
@@ -125,13 +126,13 @@ public class Robot extends TimedRobot {
 //		mode = new CentreAndPickSwitchMode();
 //		mode = new SideToScaleMode();
 //		mode = new SideToSwitchMode();
-//		mode = new JackTestMode();
+		mode = new FollowMotionProfileMode();
 //		mode = new AutonomousMasterMode();
 		driveTrain.robotDrive.setSafetyEnabled(false);
 		driveTrain.setLowGear();
 		driveTrain.zero();
 		elevator.zero();
-		pickAModeFromTheAutoSwitch();
+		// pickAModeFromTheAutoSwitch();
 		mode.initialize();
 	}
 	
