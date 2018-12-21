@@ -1,14 +1,14 @@
-package main.java.frc.robot;
+package frc.robot;
 
-import static main.java.frc.utils.Constants.DIO_ELEVATOR_LIMIT_BOTTOM;
-import static main.java.frc.utils.Constants.USB_CONTROL_GAMEPAD;
-import static main.java.frc.utils.Constants.USB_DRIVE_STICK;
-import static main.java.frc.utils.Constants.AIO_AUTO_SELECT;
-import static main.java.frc.utils.Constants.getConstantAsInt;
+import static frc.utils.Constants.DIO_ELEVATOR_LIMIT_BOTTOM;
+import static frc.utils.Constants.USB_CONTROL_GAMEPAD;
+import static frc.utils.Constants.USB_DRIVE_STICK;
+import static frc.utils.Constants.AIO_AUTO_SELECT;
+import static frc.utils.Constants.getConstantAsInt;
 
-import main.java.frc.controls.EGamepad;
-import main.java.frc.controls.EJoystick;
-import main.java.frc.utils.Constants;
+import frc.controls.EGamepad;
+import frc.controls.EJoystick;
+import frc.utils.Constants;
 import edu.wpi.first.wpilibj.Compressor;
 import edu.wpi.first.wpilibj.AnalogInput;
 import edu.wpi.first.wpilibj.PowerDistributionPanel;

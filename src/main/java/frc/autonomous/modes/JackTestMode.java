@@ -1,14 +1,14 @@
-package main.java.frc.autonomous.modes;
+package frc.autonomous.modes;
 
 import java.io.File;
 
-import main.java.frc.autonomous.AutoBuilder;
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.autonomous.AutoMode;
-import main.java.frc.autonomous.commands.*;
-import main.java.frc.utils.Constants;
-//import main.java.frc.robot.CubePickup.IntakeStatus;
-//import main.java.frc.robot.DriveTrain;
+import frc.autonomous.AutoBuilder;
+import frc.autonomous.AutoCommand;
+import frc.autonomous.AutoMode;
+import frc.autonomous.commands.*;
+import frc.utils.Constants;
+//import frc.robot.CubePickup.IntakeStatus;
+//import frc.robot.DriveTrain;
 //import jaci.pathfinder.Waypoint;
 
 public class JackTestMode extends AutoMode {

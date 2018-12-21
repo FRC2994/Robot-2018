@@ -1,7 +1,7 @@
-package main.java.frc.autonomous.commands;
+package frc.autonomous.commands;
 
-import main.java.frc.robot.Elevator;
-import main.java.frc.autonomous.AutoCommand;
+import frc.robot.Elevator;
+import frc.autonomous.AutoCommand;
 
 public final class ElevatorLift implements AutoCommand {
 

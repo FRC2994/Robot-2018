@@ -1,4 +1,4 @@
-package main.java.frc.robot;
+package frc.robot;
 
 public abstract class Subsystem {
 	abstract void initTeleop();

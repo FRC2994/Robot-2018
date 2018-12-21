@@ -1,12 +1,12 @@
-package main.java.frc.autonomous.modes;
+package frc.autonomous.modes;
 
-import main.java.frc.autonomous.AutoBuilder;
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.autonomous.AutoMode;
-import main.java.frc.autonomous.commands.FollowMotionProfile;
-import main.java.frc.autonomous.commands.DriveStraight;
-import main.java.frc.autonomous.commands.DriveTurn;
-import main.java.frc.autonomous.commands.Wait;
+import frc.autonomous.AutoBuilder;
+import frc.autonomous.AutoCommand;
+import frc.autonomous.AutoMode;
+import frc.autonomous.commands.FollowMotionProfile;
+import frc.autonomous.commands.DriveStraight;
+import frc.autonomous.commands.DriveTurn;
+import frc.autonomous.commands.Wait;
 import jaci.pathfinder.Pathfinder;
 import jaci.pathfinder.Trajectory;
 import jaci.pathfinder.Waypoint;

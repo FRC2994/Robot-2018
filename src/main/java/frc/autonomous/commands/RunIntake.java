@@ -1,8 +1,8 @@
-package main.java.frc.autonomous.commands;
+package frc.autonomous.commands;
 
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.robot.CubePickup;
-import main.java.frc.robot.CubePickup.IntakeStatus;
+import frc.autonomous.AutoCommand;
+import frc.robot.CubePickup;
+import frc.robot.CubePickup.IntakeStatus;
 
 public class RunIntake implements AutoCommand {
 	private IntakeStatus status;

@@ -1,4 +1,4 @@
-package main.java.frc.autonomous;
+package frc.autonomous;
 
 import java.util.ArrayList;
 import java.util.List;

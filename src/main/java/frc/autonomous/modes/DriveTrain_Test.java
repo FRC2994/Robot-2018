@@ -1,18 +1,18 @@
-package main.java.frc.autonomous.modes;
+package frc.autonomous.modes;
 
-import static main.java.frc.utils.Constants.GYRO_PID_D;
-import static main.java.frc.utils.Constants.GYRO_PID_E;
-import static main.java.frc.utils.Constants.GYRO_PID_I;
-import static main.java.frc.utils.Constants.GYRO_PID_P;
-import static main.java.frc.utils.Constants.getConstantAsDouble;
+import static frc.utils.Constants.GYRO_PID_D;
+import static frc.utils.Constants.GYRO_PID_E;
+import static frc.utils.Constants.GYRO_PID_I;
+import static frc.utils.Constants.GYRO_PID_P;
+import static frc.utils.Constants.getConstantAsDouble;
 
-import main.java.frc.autonomous.AutoBuilder;
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.autonomous.AutoMode;
-import main.java.frc.autonomous.commands.DriveStraightTalon;
-import main.java.frc.autonomous.commands.DriveTurn;
-import main.java.frc.utils.SimPID;
-import main.java.frc.robot.DriveTrain;
+import frc.autonomous.AutoBuilder;
+import frc.autonomous.AutoCommand;
+import frc.autonomous.AutoMode;
+import frc.autonomous.commands.DriveStraightTalon;
+import frc.autonomous.commands.DriveTurn;
+import frc.utils.SimPID;
+import frc.robot.DriveTrain;
 import edu.wpi.first.wpilibj.interfaces.Gyro;
 
 

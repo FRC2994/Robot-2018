@@ -1,11 +1,11 @@
-package main.java.frc.autonomous;
+package frc.autonomous;
 
 import java.io.File;
 
-import main.java.frc.controls.ButtonEntry;
-import main.java.frc.utils.Constants;
-import main.java.frc.robot.DriveTrain;
-import main.java.frc.robot.Subsystems;
+import frc.controls.ButtonEntry;
+import frc.utils.Constants;
+import frc.robot.DriveTrain;
+import frc.robot.Subsystems;
 
 public class CalibrationManager {
 	

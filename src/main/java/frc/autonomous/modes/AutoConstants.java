@@ -1,4 +1,4 @@
-package main.java.frc.autonomous.modes;
+package frc.autonomous.modes;
 
 public interface AutoConstants {
 	public static int FORWARD_TO_TURN_LR = 71;

@@ -1,6 +1,6 @@
-package main.java.frc.autonomous;
+package frc.autonomous;
 
-import main.java.frc.robot.Robot;
+import frc.robot.Robot;
 
 public abstract class AutoMode {
 	

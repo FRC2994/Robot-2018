@@ -1,25 +1,25 @@
 
-package main.java.frc.robot;
+package frc.robot;
 
 import java.util.ArrayList;
 
 import java.util.List;
 
-import main.java.frc.autonomous.AutoMode;
-import main.java.frc.autonomous.modes.AutonomousMasterMode;
-import main.java.frc.autonomous.modes.CentreAndPickSwitchMode;
-import main.java.frc.autonomous.modes.CrossTheLineMode;
-import main.java.frc.autonomous.modes.SideToSwitchMode;
-import main.java.frc.autonomous.modes.SideToScaleMode;
-import main.java.frc.autonomous.modes.DoNothingMode;
-import main.java.frc.autonomous.modes.JackTestMode;
-import main.java.frc.autonomous.modes.FollowMotionProfileMode;
+import frc.autonomous.AutoMode;
+import frc.autonomous.modes.AutonomousMasterMode;
+import frc.autonomous.modes.CentreAndPickSwitchMode;
+import frc.autonomous.modes.CrossTheLineMode;
+import frc.autonomous.modes.SideToSwitchMode;
+import frc.autonomous.modes.SideToScaleMode;
+import frc.autonomous.modes.DoNothingMode;
+import frc.autonomous.modes.JackTestMode;
+import frc.autonomous.modes.FollowMotionProfileMode;
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.TimedRobot;
-//import main.java.frc.utils.BTMain;
-import main.java.frc.utils.Constants;
-import main.java.frc.utils.DriveTrainCharacterizer;
-import main.java.frc.utils.ArduinoI2C;
+//import frc.utils.BTMain;
+import frc.utils.Constants;
+import frc.utils.DriveTrainCharacterizer;
+import frc.utils.ArduinoI2C;
 
 /**
  * The VM is configured to automatically run this class, and to call the

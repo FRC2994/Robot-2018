@@ -1,16 +1,16 @@
-package main.java.frc.robot;
+package frc.robot;
 
-import static main.java.frc.utils.Constants.*;
+import static frc.utils.Constants.*;
 
 import com.ctre.phoenix.ParamEnum;
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
 
-import main.java.frc.controls.ButtonEntry;
+import frc.controls.ButtonEntry;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 
-import main.java.frc.utils.Constants;
-//import main.java.frc.utils.SimPID;
+import frc.utils.Constants;
+//import frc.utils.SimPID;
 import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.Encoder;
 

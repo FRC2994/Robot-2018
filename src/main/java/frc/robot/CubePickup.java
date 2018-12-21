@@ -1,13 +1,13 @@
-package main.java.frc.robot;
+package frc.robot;
 
 //Was on the pickup class from 2017
-import static main.java.frc.utils.Constants.*;
+import static frc.utils.Constants.*;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.VictorSPX;
 
-import main.java.frc.controls.ButtonEntry;
-import main.java.frc.utils.Constants;
+import frc.controls.ButtonEntry;
+import frc.utils.Constants;
 //import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.DoubleSolenoid;
 import edu.wpi.first.wpilibj.DoubleSolenoid.Value;

@@ -1,8 +1,8 @@
-package main.java.frc.autonomous.commands;
+package frc.autonomous.commands;
 
-import main.java.frc.autonomous.AutoCommand;
-//import main.java.frc.utils.Constants;
-import main.java.frc.robot.CubePickup;
+import frc.autonomous.AutoCommand;
+//import frc.utils.Constants;
+import frc.robot.CubePickup;
 
 public class CubeTilt implements AutoCommand {
 	private char height = 'd';

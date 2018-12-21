@@ -1,6 +1,6 @@
-package main.java.frc.autonomous.commands;
+package frc.autonomous.commands;
 
-import main.java.frc.autonomous.AutoCommand;
+import frc.autonomous.AutoCommand;
 import edu.wpi.first.wpilibj.Timer;
 
 // A simple command to wait for a couple seconds.

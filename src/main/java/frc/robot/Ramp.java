@@ -1,4 +1,4 @@
-package main.java.frc.robot;
+package frc.robot;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.VictorSPX;

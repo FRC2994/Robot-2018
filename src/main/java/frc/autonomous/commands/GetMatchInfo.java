@@ -1,6 +1,6 @@
-package main.java.frc.autonomous.commands;
+package frc.autonomous.commands;
 
-import main.java.frc.autonomous.AutoCommand;
+import frc.autonomous.AutoCommand;
 import edu.wpi.first.wpilibj.DriverStation;
 
 public class GetMatchInfo implements AutoCommand {

@@ -1,21 +1,21 @@
-package main.java.frc.autonomous.modes;
+package frc.autonomous.modes;
 
-import main.java.frc.autonomous.AutoBuilder;
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.autonomous.AutoMode;
-//import main.java.frc.autonomous.commands.CubeDrop;
-import main.java.frc.autonomous.commands.CubeTilt;
-import main.java.frc.autonomous.commands.DriveStraightTalon;
-import main.java.frc.autonomous.commands.DriveTurn;
-import main.java.frc.autonomous.commands.ElevatorLift;
-import main.java.frc.autonomous.commands.KillOffBlockingTalon;
-import main.java.frc.autonomous.commands.RunIntake;
-import main.java.frc.autonomous.commands.Wait;
-//import main.java.frc.robot.CubePickup;
-//import main.java.frc.robot.DriveTrain;
-//import main.java.frc.robot.DriveTrain;
-import main.java.frc.robot.Robot;
-import main.java.frc.robot.CubePickup.IntakeStatus;
+import frc.autonomous.AutoBuilder;
+import frc.autonomous.AutoCommand;
+import frc.autonomous.AutoMode;
+//import frc.autonomous.commands.CubeDrop;
+import frc.autonomous.commands.CubeTilt;
+import frc.autonomous.commands.DriveStraightTalon;
+import frc.autonomous.commands.DriveTurn;
+import frc.autonomous.commands.ElevatorLift;
+import frc.autonomous.commands.KillOffBlockingTalon;
+import frc.autonomous.commands.RunIntake;
+import frc.autonomous.commands.Wait;
+//import frc.robot.CubePickup;
+//import frc.robot.DriveTrain;
+//import frc.robot.DriveTrain;
+import frc.robot.Robot;
+import frc.robot.CubePickup.IntakeStatus;
 //import edu.wpi.first.wpilibj.DriverStation;
 
 public class SideToScaleMode extends AutoMode {

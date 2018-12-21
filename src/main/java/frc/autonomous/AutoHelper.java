@@ -1,4 +1,4 @@
-package main.java.frc.autonomous;
+package frc.autonomous;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,10 +1,10 @@
-package main.java.frc.autonomous.commands;
+package frc.autonomous.commands;
 
 import java.io.File;
 
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.utils.Constants;
-import main.java.frc.robot.DriveTrain;
+import frc.autonomous.AutoCommand;
+import frc.utils.Constants;
+import frc.robot.DriveTrain;
 import jaci.pathfinder.Pathfinder;
 import jaci.pathfinder.Trajectory;
 import jaci.pathfinder.Trajectory.Segment;

@@ -1,4 +1,4 @@
-package main.java.frc.autonomous;
+package frc.autonomous;
 
 public interface AutoCommand {
 	public void initialize();

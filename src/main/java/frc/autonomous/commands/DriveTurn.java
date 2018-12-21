@@ -1,10 +1,10 @@
-package main.java.frc.autonomous.commands;
+package frc.autonomous.commands;
 
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.utils.SimLib;
-import main.java.frc.utils.SimPID;
-import main.java.frc.robot.DriveTrain;
-//import main.java.frc.robot.Subsystems;
+import frc.autonomous.AutoCommand;
+import frc.utils.SimLib;
+import frc.utils.SimPID;
+import frc.robot.DriveTrain;
+//import frc.robot.Subsystems;
 
 public class DriveTurn implements AutoCommand {
 

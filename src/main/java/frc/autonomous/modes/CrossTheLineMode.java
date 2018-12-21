@@ -1,9 +1,9 @@
-package main.java.frc.autonomous.modes;
+package frc.autonomous.modes;
 
-import main.java.frc.autonomous.AutoBuilder;
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.autonomous.AutoMode;
-import main.java.frc.autonomous.commands.DriveStraightTalon;
+import frc.autonomous.AutoBuilder;
+import frc.autonomous.AutoCommand;
+import frc.autonomous.AutoMode;
+import frc.autonomous.commands.DriveStraightTalon;
 
 public class CrossTheLineMode extends AutoMode {
 

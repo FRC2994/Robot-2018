@@ -1,7 +1,7 @@
-package main.java.frc.autonomous.commands;
+package frc.autonomous.commands;
 
-import main.java.frc.autonomous.AutoCommand;
-import main.java.frc.robot.DriveTrain;
+import frc.autonomous.AutoCommand;
+import frc.robot.DriveTrain;
 
 
 public class DriveStraightTalon implements AutoCommand {
