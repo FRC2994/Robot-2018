@@ -16,7 +16,13 @@ import frc.autonomous.modes.JackTestMode;
 import frc.autonomous.modes.FollowMotionProfileMode;
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.TimedRobot;
-//import frc.utils.BTMain;
+import edu.wpi.first.wpilibj.CameraServer;
+import org.opencv.core.Mat;
+import org.opencv.imgproc.Imgproc;
+import edu.wpi.cscore.CvSink;
+import edu.wpi.cscore.CvSource;
+import edu.wpi.cscore.UsbCamera;
+
 import frc.utils.Constants;
 import frc.utils.DriveTrainCharacterizer;
 import frc.utils.ArduinoI2C;
@@ -84,6 +90,8 @@ public class Robot extends TimedRobot {
 //		
 //		this.ramp = new Ramp();
 //		subsystems.add(ramp);
+		
+	CameraServer.getInstance().startAutomaticCapture();
 		
 	}
 
