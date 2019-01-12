@@ -27,6 +27,8 @@ import frc.utils.Constants;
 import frc.utils.DriveTrainCharacterizer;
 import frc.utils.ArduinoI2C;
 
+import edu.wpi.first.wpilibj.AnalogInput;
+import edu.wpi.first.wpilibj.DigitalInput;
 /**
  * The VM is configured to automatically run this class, and to call the
  * functions corresponding to each mode, as described in the IterativeRobot
@@ -40,6 +42,12 @@ public class Robot extends TimedRobot {
 //	private Climber climber;
 	private CubePickup cubePickup;
 	//private Ramp ramp;
+	//Analog input
+	AnalogInput darkAnalog = new AnalogInput(2);
+	AnalogInput lightAnalog = new AnalogInput(1);
+	//Digital Input
+	DigitalInput darkDigital = new DigitalInput(2);
+	DigitalInput lightDigital = new DigitalInput(1);
 	
 	private String gameSpecificData = "%NOT POLLED";
 	private static int autoSelectSwitchPosition;
@@ -232,7 +240,6 @@ public class Robot extends TimedRobot {
 		for (Subsystem subsystem : subsystems) {
 			subsystem.tickTeleop();
 		}
-		
 //		Subsystems.btMain.doRecordingTick();
 	}
 
@@ -244,6 +251,8 @@ public class Robot extends TimedRobot {
 //		dtCharaterizer = new DriveTrainCharacterizer(QUASI_STATIC, Forward);
 		autoSelectSwitchPosition = Subsystems.calcAutoSelectSwitch();
 		System.out.println("autoSelectSwitchPosition : " + autoSelectSwitchPosition + " Raw Value " + Subsystems.autoSelectSwitch.getValue() );
+		System.out.println("Test Initiated");
+		
 	}
 
 	/**
@@ -260,6 +269,20 @@ public class Robot extends TimedRobot {
 		}
 		autoSelectSwitchPosition = Subsystems.calcAutoSelectSwitch();
 		System.out.println("autoSelectSwitchPosition : " + autoSelectSwitchPosition + " Raw Value " + Subsystems.autoSelectSwitch.getValue() );
-	    Subsystems.Logger.addRecord();  // Add the line of accumulated records
+		Subsystems.Logger.addRecord();  // Add the line of accumulated records
+
+		// System.out.println("Light: " + lightAnalog.getValue());
+		// System.out.println("Dark: " + darkAnalog.getValue());
+			boolean x = lightDigital.get();
+
+			if (x == true) {
+				System.out.println("Color: Green");
+			}
+			if (x == false) {
+				System.out.println("Color: Red");
+			}
+
+		// System.out.println("Light: " + lightDigital.get()); If true = green
+		// System.out.println("Dark: " + darkDigital.get()); If true = red/orange
 	}
 }
